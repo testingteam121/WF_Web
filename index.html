@@ -31,7 +31,7 @@
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
         UnityLoader.compatibilityCheck = function (e, t, r) { t(); };
-        unityInstance.SetFullscreen(1);
+       
         function mute() {
             gameInstance.SendMessage("SoundManager", "muteAll");
         }
